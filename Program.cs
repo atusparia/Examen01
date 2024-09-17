@@ -169,49 +169,6 @@ do
             ListaNombres();
             break;
 
-
-
-        /*
-                case "x":
-                    int cantidadNotas;
-
-                    Console.WriteLine("Ingrese la cantidad de notas a evaluar:");
-                    cantidadNotas = Convert.ToInt32(Console.ReadLine());
-
-                    int[] notas = new int[cantidadNotas];
-
-                    //Ingresar Datos
-                    notas = IngresarNotas(notas);
-
-                    //Lógica
-
-                    //Salida
-                    Console.WriteLine("El promedio de las notas es:");
-                    Console.WriteLine(ProcesarNotas(notas));
-                    break;
-
-                case "2":
-                    int cantidadNombres;
-                    Console.WriteLine("Ingrese la cantidad de nombres a evaluar:");
-                    cantidadNombres = Convert.ToInt32(Console.ReadLine());
-
-                    //Ingresar Datos
-                    List<string> nombres = new List<string>();
-                    string nombre = "";
-
-                    for (int i = 0; i < cantidadNombres; i++)
-                    {
-                        Console.WriteLine("Ingrese el Nombre " + (i + 1) + ": ");
-                        nombre = Console.ReadLine();
-                        nombres.Add(nombre);
-                    }
-
-                    //Logica
-                    Console.WriteLine("El nombre más largo es:");
-                    Console.WriteLine(EncontrarMasLargo(nombres));
-
-                    break;
-        */
         case "8":
             Console.WriteLine("Gracias por participar...");
             break;
