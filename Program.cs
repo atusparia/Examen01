@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics.Tracing;
 
 string opcion = "";
+
 string EvaluarNúmero(int numero)
 {
     string evaluacion = "";
@@ -71,6 +72,15 @@ void NumeroLimite(int numero)
     }
 }
 
+double AreaCirculo(double radio)
+{
+    double area = 0;
+
+    area = Math.PI * Math.Pow(radio,2);
+
+    return area;
+}
+
 void MostarArreglo()
 {
     string[] arreglo = new string[4];
@@ -79,7 +89,7 @@ void MostarArreglo()
     arreglo[1] = "Verano";
     arreglo[2] = "Otoño";
     arreglo[3] = "Invierno";
-    
+
     foreach (var item in arreglo)
     {
         Console.WriteLine(item);
@@ -101,14 +111,7 @@ void ListaNombres()
     }
 }
 
-double AreaCirculo(double radio)
-{
-    double area = 0;
 
-    area = Math.PI * Math.Pow(radio,2);
-
-    return area;
-}
 do
 {
     Console.WriteLine("MENU");
@@ -172,8 +175,5 @@ do
         case "8":
             Console.WriteLine("Gracias por participar...");
             break;
-
     }
-
-
 } while (opcion != "8");
